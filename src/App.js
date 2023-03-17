@@ -10,7 +10,7 @@ function App() {
     { role: "system", content: "Tu es mon assistant personnel." },
   ]);
 
-  const apiKey = "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";
+  const apiKey = "YOUR_API_KEY";
   const config = new Configuration({ apiKey: apiKey });
   const openai = new OpenAIApi(config);
 
